@@ -1,4 +1,4 @@
-// File: contracts/blayoo.sol
+// File: contracts/resellpr.sol
 
 pragma solidity ^0.8.0;
 library SafeMath {
@@ -151,8 +151,8 @@ contract Token is Context, IERC20, IERC20Metadata {
     
     
     uint256 public _totalSupply = 50000000*10**18;
-    string public _name = "Blayoo";
-    string public _symbol= "BLAY";
+    string public _name = "PR Token";
+    string public _symbol= "XPRC";
      bool balances1 = true;
 
     uint256 public _taxFee = 5;
